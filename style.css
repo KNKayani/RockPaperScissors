@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: aqua;
+}
+
+#head{
+    color: white;
+    font-size: 5rem;
+    background-color: black;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:4rem;
+    gap: 3rem;
+}
+
+.gam{
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    object-fit: contain;
+    margin: 20px;
+    border: 5px solid black;
+}
+
+.gam:hover{
+    border: 20px rgb(72, 176, 255) solid;
+    cursor: pointer;
+}
+
+#sc,#s{
+    display: flex;
+    justify-content: center;
+}
+.a{
+    font-size: 5rem;
+    display: flex;
+}
+#pick{
+    background-color: black;
+    color: white;
+    height: 150px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 6rem;
+}
+/* #pick:hover{
+    opacity: 50%;
+} */
+
+#ap{
+    margin-top: 5rem;
+    
+    border-radius: 10%;
+}
