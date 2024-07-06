@@ -9,9 +9,9 @@ body{
 
 #head{
     color: white;
-    font-size: 5rem;
+    font-size: 2rem;
     background-color: black;
-    height: 7rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,21 +21,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:4rem;
-    gap: 3rem;
+    margin-top:2rem;
+    gap: 1.5rem;
 }
 
 .gam{
-    height: 500px;
-    width: 500px;
-    border-radius: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
     object-fit: contain;
-    margin: 20px;
-    border: 5px solid black;
+    margin: 2px;
+    border: 1px solid black;
 }
 
 .gam:hover{
-    border: 20px rgb(72, 176, 255) solid;
+    border: 2px rgb(72, 176, 255) solid;
     cursor: pointer;
 }
 
@@ -44,23 +44,23 @@ body{
     justify-content: center;
 }
 .a{
-    font-size: 5rem;
+    font-size: 1rem;
     display: flex;
 }
 #pick{
     background-color: black;
     color: white;
-    height: 150px;
+    height: 20px;
     text-align: center;
-    padding-top: 25px;
-    font-size: 6rem;
+    padding-top: 2px;
+    font-size: 1rem;
 }
 /* #pick:hover{
     opacity: 50%;
 } */
 
 #ap{
-    margin-top: 5rem;
+    margin-top: 2rem;
     
     border-radius: 10%;
 }
